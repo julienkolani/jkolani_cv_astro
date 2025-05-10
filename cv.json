@@ -1,0 +1,176 @@
+{
+  "basics": {
+    "name": "KOLANI Julien Yendoupabe",
+    "label": "Étudiant en Master 1 Informatique et Systèmes",
+    "image": "/me_avatar.png",
+    "email": "julienkolani0@gmail.com",
+    "phone": "+228 70043579",
+    "url": "https://julienkolanicv.netlify.app",
+    "summary": "Constructeur d’écosystèmes techniques passionné par le Linux, l’IoT, l’IA, la bidouille intelligente et les solutions concrètes, robustes et utiles. J’apprends par la pratique, préfère les systèmes complets aux composants isolés, et cherche l’impact réel de la technologie.",
+    "theme": "default",
+    "location": {
+      "address": "Lomé",
+      "postalCode": "",
+      "city": "Lomé",
+      "countryCode": "TG",
+      "region": "Togo"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "julien-kolani",
+        "url": "https://linkedin.com/in/julien-kolani"
+      },
+      {
+        "network": "GitHub",
+        "username": "julienkolani",
+        "url": "https://github.com/julienkolani"
+      }
+    ],
+    "birthDate": "2002-08-02"
+  },
+  "work": [
+    {
+      "name": "DAC Technologies",
+      "position": "Administrateur système et réseaux",
+      "location_type": "Temps partiel",
+      "location": "Lomé, Togo",
+      "startDate": "2023-02",
+      "endDate": "2024-08",
+      "summary": "Monitoring, maintenance de serveurs, déploiement DevOps, surveillance réseau et gestion d'infrastructures locales et cloud."
+    }
+  ],
+  "education": [
+    {
+      "institution": "Université de technologie de Belfort-Montbéliard & Université de Lomé",
+      "area": "Master Informatique et Systèmes",
+      "studyType": "Master",
+      "startDate": "2024-10",
+      "endDate": "Présent",
+      "location": "Lomé, Togo"
+    },
+    {
+      "institution": "Université de Lomé",
+      "area": "Licence professionnelle en Systèmes et Réseaux Informatiques",
+      "studyType": "Licence",
+      "startDate": "2020-01",
+      "endDate": "2023-10",
+      "location": "Lomé, Togo"
+    },
+    {
+      "institution": "Fondation Vallet – Bénin",
+      "area": "École d'Été sur l’Intelligence Artificielle",
+      "studyType": "Formation",
+      "startDate": "2023-07",
+      "endDate": "2023-07",
+      "location": "Abomey-Calavi, Bénin"
+    },
+    {
+      "institution": "TIDD",
+      "area": "Électronique, prototypage et systèmes embarqués",
+      "studyType": "Formation technique",
+      "startDate": "2024-01",
+      "endDate": "Présent",
+      "location": "Lomé, Togo"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "NextGen Leaders Program",
+      "date": "2024-04",
+      "issuer": "Do Well Do Good",
+      "url": "./data/1712569938751-certificate.png"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Linux",
+      "level": "Avancé",
+      "keywords": ["Administration système", "Ligne de commande", "Serveurs"]
+    },
+    {
+      "name": "Python",
+      "level": "Avancé",
+      "keywords": ["Backend", "Machine Learning", "Scripting"]
+    },
+    {
+      "name": "DevOps",
+      "level": "Intermédiaire",
+      "keywords": ["Docker", "GitLab CI", "Ansible"]
+    },
+    {
+      "name": "IoT & systèmes embarqués",
+      "level": "Intermédiaire",
+      "keywords": ["ESP32", "Raspberry Pi", "Prototypage"]
+    },
+    {
+      "name": "Cybersécurité",
+      "level": "Intermédiaire",
+      "keywords": ["CTF", "Veille", "Sécurité réseaux"]
+    },
+    {
+      "name": "Électronique",
+      "level": "Intermédiaire",
+      "keywords": ["Arduino", "Capteurs", "Circuits"]
+    },
+    {
+      "name": "Coordination",
+      "level": "Avancé",
+      "keywords": ["Travail en équipe", "Organisation", "Communication"]
+    },
+    {
+      "name": "Autonomie",
+      "level": "Expert",
+      "keywords": ["Auto-apprentissage", "Adaptabilité"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Français",
+      "fluency": "90% (Parlé & écrit)"
+    },
+    {
+      "language": "Anglais",
+      "fluency": "60% (Intermédiaire)"
+    },
+    {
+      "language": "Éwé",
+      "fluency": "70% (Parlé)"
+    },
+    {
+      "language": "Japonais",
+      "fluency": "5% (Débutant)"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Astronomie",
+      "keywords": []
+    },
+    {
+      "name": "IoT",
+      "keywords": ["Internet des Objets", "Systèmes embarqués"]
+    },
+    {
+      "name": "Basketball",
+      "keywords": []
+    },
+    {
+      "name": "Bricolage intelligent",
+      "keywords": ["Bidouille", "DIY tech", "Fablabs"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Portfolio personnel",
+      "isActive": true,
+      "description": "Un portfolio personnel pour présenter mes projets et compétences.",
+      "highlights": [
+        "Construit avec HTML, CSS et JavaScript",
+        "Hébergé sur Netlify"
+      ],
+      "url": "https://julienkolanicv.netlify.app",
+      "github": "https://github.com/julienkolani"
+    }
+  ]
+}

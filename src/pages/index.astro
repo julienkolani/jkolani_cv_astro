@@ -1,21 +1,46 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import ContextAlert from '../components/ContextAlert.astro';
-import Markdown from '../components/Markdown.astro';
+import Layout from "@/layouts/Layout.astro";
 
-const explainer = `
-An Astro website can go way beyond static pages - on the right platform.
+import About from "@/components/sections/About.astro";
+import Education from "@/components/sections/Education.astro";
+import Experience from "@/components/sections/Experience.astro";
+import Hero from "@/components/sections/Hero.astro";
+import Projects from "@/components/sections/Projects.astro";
+import Skills from "@/components/sections/Skills.astro";
+import Tail from "@/components/sections/Tail.astro";
+import KeyboardManager from "@/components/KeyboardManager.astro";
+import ThemeSwitch from "@/components/ThemeSwitch.astro";
 
-Netlify supports not only [Streaming SSR](https://docs.astro.build/en/guides/server-side-rendering/#html-streaming) and fast [Edge Middleware](https://docs.astro.build/en/guides/middleware/), but also [on-demand revalidation](https://www.netlify.com/blog/cache-tags-and-purge-api-on-netlify/) and [stale-while-revalidate](https://www.netlify.com/blog/swr-and-fine-grained-cache-control/). 
-Any page or data can be rebuilt only when needed, without site visitors ever getting a performance hit.
-`;
+import { basics } from "@cv";
+const { name, label } = basics;
 ---
 
-<Layout title="Welcome to Astro.">
-    <ContextAlert class="mb-8" />
-    <h1 class="mb-10">Netlify Platform Starter for Astro</h1>
-    <Markdown content={explainer} class="mb-10 text-lg" />
-    <p>
-        <a href="https://docs.netlify.com/frameworks/astro/" class="btn btn-lg sm:min-w-64">Read the Docs</a>
-    </p>
+<Layout title={`${name} Portafolio - ${label}`}>
+	<main class="relative grid max-w-7xl gap-12 p-8 max-sm:py-16 md:grid-cols-6 md:p-16 xl:gap-24 print:max-w-none print:grid-cols-1 print:gap-6">
+		<div class="space-y-6 md:col-span-2 print:col-span-1 print:grid print:grid-cols-2 print:gap-5 print:space-y-0">
+			<Hero />
+			<About />
+			<ThemeSwitch />
+		</div>
+		<div class="space-y-12 md:col-span-4 print:col-span-1 print:grid print:grid-cols-4 print:gap-2 print:space-y-0">
+			<Experience className="print:col-span-3" />
+			<Projects className="print:hidden" />
+			<Skills className="print:hidden" />
+			<Education className="order-first" />
+		</div>
+		<Tail />
+	</main>
+
+	<KeyboardManager />
 </Layout>
+
+<style>
+	@page {
+		size: auto;
+		margin: 0mm;
+	}
+	main {
+		margin: auto;
+		width: 100%;
+	}
+</style>
